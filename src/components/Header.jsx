@@ -34,7 +34,7 @@ const Header = () => {
             </div>
 
             <Link className="action_container" to="/bag">
-                <LuBaggageClaim />
+                <LuBaggageClaim className="LuBaggageClaim " />
                 <span className="action_name">Bag</span>
                 <span className="bag-item-count">{bag.length}</span>
             </Link>

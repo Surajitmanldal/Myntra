@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
+import './responsive.css'
 import App from './routes/App.jsx'
 import Bag from './routes/Bag.jsx'
 import Home from './routes/Home.jsx'

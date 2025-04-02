@@ -21,8 +21,6 @@ const BagSummary = () => {
     let finalPayment = Number(totalMRP - totalDiscount) + CONVENIENCE_FEES;
 
     return <div className="bag-summary">
-
-
         <div className="bag-details-container">
             <div className="price-header">PRICE DETAILS ({totalItem} Items) </div>
             <div className="price-item">
